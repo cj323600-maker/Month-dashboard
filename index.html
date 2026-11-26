@@ -285,12 +285,7 @@ label.tm{cursor:pointer}
 .tpw .chip.ok b{color:#64a8ff!important}.tpw .chip.bad b{color:#ff6b60!important}.tpw .chip b .tgb{color:#c9cdd6!important}.tpw .chip span,.tpw .chip em{color:#c9cdd6!important}
 .tpw .pos,.tpw .pos small{color:#8cc0ff!important}.tpw .neg,.tpw .neg small{color:#ff8a80!important}.tpw b.pos,.tpw b.neg{background:transparent!important}
 @media(min-width:1400px){#tb3:checked~.tp3.tpw,#tb4:checked~.tp4.tpw,#tb5:checked~.tp5.tpw,#tb6:checked~.tp6.tpw,#tb7:checked~.tp7.tpw,#tb8:checked~.tp8.tpw{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;align-items:start}.tpw>*{grid-column:1/-1;margin-top:0!important}.tpw>details.fold:not(.tm){grid-column:auto}.tpw>details.fold:only-of-type{grid-column:1/-1}}
-/* 재고 탭: 그래프 오른쪽 빈자리에 매입 구분별 표를 나란히(2026-11-26 사용자 지시 "끝까지 채워") */
-@media(min-width:761px) and (max-width:1099px){.tpw section:has(>.invw)>.invw svg{max-width:none!important;width:100%!important;height:auto!important}}
-@media(min-width:1100px){.tpw section:has(>.invw){display:grid!important;grid-template-columns:minmax(0,43fr) minmax(0,57fr);gap:6px 28px;align-items:start}
-.tpw section:has(>.invw)>*{grid-column:1/-1;min-width:0}.tpw section:has(>.invw)>.invw{grid-column:1;grid-row:2}.tpw section:has(>.invw)>.invw svg{max-width:none!important;width:100%!important;height:auto!important}
-.tpw section:has(>.invw)>.invw+.invn+div{grid-column:1;grid-row:3}.tpw section:has(>.invw)>.invw+.invn+div+p{grid-column:1;grid-row:4}
-.tpw section:has(>.invw)>h3{grid-column:2;grid-row:2;margin:0 0 4px!important}.tpw section:has(>.invw)>.invtw{grid-column:2;grid-row:3/5}}
+@media(min-width:1100px){.tpw section:has(>.invw){display:grid!important;grid-template-columns:minmax(0,43fr) minmax(0,57fr);gap:6px 28px;align-items:start}.tpw section:has(>.invw)>*{grid-column:1/-1;min-width:0}.tpw section:has(>.invw)>.invw{grid-column:1;grid-row:2}.tpw section:has(>.invw)>.invw svg{max-width:none!important;width:100%!important;height:auto!important}.tpw section:has(>.invw)>.invw+.invn+div{grid-column:1;grid-row:3}.tpw section:has(>.invw)>.invw+.invn+div+p{grid-column:1;grid-row:4}.tpw section:has(>.invw)>h3{grid-column:2;grid-row:2;margin:0 0 4px!important}.tpw section:has(>.invw)>.invtw{grid-column:2;grid-row:3/5}}
 @media print{.paper>nav.tbar{display:none!important}}
 </style><!--BOTNAV--><style>
 #paper>.allm,#paper>nav.tbar.bn>label.nall,#paper>nav.tbar.bn .ni{display:none}#paper .htag{white-space:nowrap}
